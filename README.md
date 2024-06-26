@@ -1,5 +1,7 @@
 # Projetinho Básico replicando meu curriculo usando HTML & CSS
 
+link: <a href="https://curriculo-kauanlopes.netlify.app/"> Clique Aqui </a>
+
 <h1> Exemplos: </h1>
 
 <h2> Zoom: 90% </h2>
