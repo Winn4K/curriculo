@@ -8,6 +8,7 @@
 
 <h2> Zoom: 67% </h2>
 
-![image](https://github.com/Winn4K/curriculo/assets/58668609/d46d7ce6-6112-41d4-ac29-7bf5975f7d60)
+![image](https://github.com/Winn4K/curriculo/assets/58668609/9f827dc2-f17e-4a67-8cb3-7d328a4329eb)
+
 
 
