@@ -6,7 +6,7 @@ link: <a href="https://curriculo-kauanlopes.netlify.app/"> Clique Aqui </a>
 
 <h2> Zoom: 90% </h2>
 
-![image](https://github.com/Winn4K/curriculo/assets/58668609/8f2854f1-9376-416f-9f8b-2626e6bda569)
+![image](https://github.com/Winn4K/curriculo/assets/58668609/7c18340c-9b76-49ed-b20e-3a462fcca73a)
 
 <h2> Zoom: 67% </h2>
 
