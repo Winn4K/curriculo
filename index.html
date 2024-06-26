@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Saira:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/b168e8eb12.js" crossorigin="anonymous"></script>
+    <style>
+        * {
+            margin: 0;
+            font-family: Saira;
+        }
+
+        body {
+            background-image: url('https://static.vecteezy.com/ti/vetor-gratis/p3/14530220-design-de-plano-de-fundo-de-banner-de-espaco-de-tecnologia-digital-moderna-azul-vetor.jpg');
+            background-size: cover;
+        }
+
+        #container {
+            display: grid;
+            grid-template-columns: 4fr 6fr;
+            margin: 50px 400px 50px 400px;
+            border: solid;
+            border-color: rgb(121, 121, 121);
+            border-radius: 10px;
+        }
+
+        #container h1 {
+            font-size: 50px;
+            text-align: center;
+        }
+
+        #name {
+            margin-bottom: 30px;
+        }
+        
+        #container h2 {
+            font-size: 30px;
+            text-decoration: underline;
+            text-underline-position: below;
+            text-underline-offset: 5px;
+            margin-bottom: 10px;
+        }
+
+        #container h3 {
+            font-size: 23px;
+        }
+
+        #container h4 {
+            font-size: 20px;
+            font-weight: 500;
+            color: rgb(134, 134, 134);
+        }
+
+        #container p, li {
+            font-size: 20px;
+            font-weight: 400;
+        }
+
+        #sideBar {
+            background-image: url(imgs/papel-reciclado.jpg);
+        }
+
+        #card {
+            margin: 20px 30px 20px 30px ;
+        }
+
+        #sideBar li {
+            list-style-type: none;
+            
+        }
+
+        #sideBar ul {
+            padding: 0;
+        }
+
+        i {
+            margin-right: 10px;
+        }
+
+        .idioma {
+            display: grid;
+            grid-template-columns: 1fr 3fr;
+        }
+
+        .progressoTotal {
+            background-color: gray;
+            margin-top: 5px;
+            width: 300px;
+            height: 20px;
+            margin-left: 20px;
+            
+        }
+
+        #progressoIngles {
+            background-color: black;
+            width: 100%;
+            height: 100%;
+        }
+
+        #progressoEspanhol {
+            background-color: black;
+            width: 33.3%;
+            height: 100%;
+        }
+
+        #content {
+            background-color: rgb(255, 255, 255);
+        }
+
+    </style>
+    <title>Curriculo Kauan</title>
+</head>
+
+<body>
+    <div id="container">
+
+
+        <div id="sideBar">
+            <div id="card">
+                <h1 id="name"> Kauan Lopes Rodrigues </h1>
+                <ul>
+                    <li><i class="fa-solid fa-envelope"></i> Kauan99436601@gmail.com </li>
+                    <li><i class="fa-solid fa-phone"></i> (63) 9 9204-2924 </li>
+                    <li><a href="https://github.com/Winn4K"><i class="fa-brands fa-github"></i> Link GitHub </a></li>
+                    <li><a href="https://linkedin.com/in/kauan-lopes-rodrigues-078413143"><i
+                                class="fa-brands fa-linkedin"></i> Link Linkedin </a></li>
+                    <li><i class="fa-solid fa-house"></i> Plano Diretor Norte, Arno 42, Alameda 17, QI 15, Lote 31 -
+                        Palmas, Tocantins, Brasil </li>
+                </ul>
+            </div>
+            <div id="card">
+                <h2> PERFIL PESSOAL </h2>
+                <p> Profissional experiente em desenvolvimento de sistemas Pega para grandes instituições financeiras, como Bradesco, Santander e Banco BV.  Atuando na área há 2 anos, adquiri sólidas habilidades em modelagem de processos, criação de interfaces e automação de fluxos de trabalho. <br><br>
+                    Atualmente em transição de carreira para Front-End, busco oportunidades desafiadoras que me permitam aplicar minhas habilidades técnicas e paixão por interfaces amigáveis na criação de experiências digitais excepcionais.
+                </p>
+            </div>
+            <div id="card">
+                <h2> OBJETIVO </h2>
+                <p> Desenvolvedor Front-End </p>
+            </div>
+            <div id="card">
+                <h2> HABILIDADES </h2>
+                <ul>
+                    <li> HTML5 </li>
+                    <li> CSS3 </li>
+                    <li> JavaScript </li>
+                    <li> React.js </li>
+                    <li> Tailwind </li>
+                    <li> Scrum </li>
+                </ul>
+            </div>
+            <div id="card">
+                <h2> IDIOMAS </h2>
+                <ul>
+                    <li class="idioma">Inglês <div class="progressoTotal"><div id="progressoIngles"></div></div></li>
+                    <li class="idioma">Espanhol <div class="progressoTotal"><div id="progressoEspanhol"></div></div></li>
+                </ul>
+            </div>
+        </div>
+
+
+        <div id="content">
+            <div id="card">
+                <h2> EXPERIÊNCIA PROFISSIONAL </h2>
+                <div id="experiencia">
+                    <h3> Consultor de Soluções Digitais </h3>
+                    <h4>Capgemini Serviços e Consultoria de TI. <br>
+                        Junho de 2023 – Fev. de 2024
+                    </h4>
+                    <ul>
+                        <li> Atuei nos projetos de Aditamento de Garantias e Empréstimos do Banco BV, adquiri aprendizado sobre projetos com fluxo, em setembro de 2023 iniciei como Quality Assurance (QA) no projeto Juridico360, atuando em testes manuais procurando solucionar bugs no portal bpm. </li>
+                    </ul>
+                </div>
+                <div id="experiencia">
+                    <h3> Analista de Desenvolvimento de Sistemas </h3>
+                    <h4>SIS Innov & Tech <br>
+                        Dez. de 2022 – Jun. de 2023
+                    </h4>
+                    <ul>
+                        <li> Efetivado, auxiliei novos estagiários no aprendizado da ferramenta PEGA, continuei atuando no projeto de Faturamento da Bradesco Seguros e aprimorando meus conhecimentos sobre a ferramenta PEGA. </li>
+                    </ul>
+                </div>
+                <div id="experiencia">
+                    <h3> Desenvolvedor PEGA (Estagiário) </h3>
+                    <h4>SIS Innov & Tech <br>
+                        Fev. de 2022 – Nov. de 2022
+                    </h4>
+                    <ul>
+                        <li> Programa de Formação PEGA, no qual estudei 4 meses para conseguir capacitação e certificação de SCRUM e PCSA, após certificação em Julho/2022 iniciei o trabalho com PEGA no projeto de Faturamento da Bradesco Seguros, onde aprofundei meus conhecimentos com Data Transforms, When Rules, Integração de Serviços GET e SOAP, Desenvolvimento de Telas, Responsividade com PEGA,  Activitys, Flow Actions. </li>
+                    </ul>
+                </div>
+            </div>
+            <div id="card">
+                <h2> FORMAÇÃO </h2>
+                <div id="experiencia">
+                    <h3> Engenharia de Software </h3>
+                    <h4> Faculdade Católica do Tocantins <br>
+                        Jan. de 2017 – Jul. de 2017 
+                    </h4>
+                </div>
+            </div>
+            <div id="card">
+                <h2> CERTIFICADOS </h2>
+                <div id="experiencia">
+                    <h3> PEGA System Architect (CSA) </h3>
+                    <h4> PEGA. </h4>
+                </div>
+                <div id="experiencia">
+                    <h3> Desenvolvedor Front-End </h3>
+                    <h4> Escola DNC. </h4>
+                </div>
+                <div id="experiencia">
+                    <h3> Java: Lógica de Programação e Algoritmos  </h3>
+                    <h4> Udemy. </h4>
+                </div>
+                <div id="experiencia">
+                    <h3> Scrum Fundamentals Certified  </h3>
+                    <h4> SCRUMstudy. </h4>
+                </div>
+                <div id="experiencia">
+                    <h3> Inglês Avançado  </h3>
+                    <h4> Minds English School. </h4>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
