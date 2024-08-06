@@ -1,6 +1,6 @@
-# Meu Curriculo em HTML
+# Meu Curriculo em HTML (DESATUALIZADO)
 
-Projetinho Básico replicando meu curriculo usando HTML & CSS
+Projetinho Básico replicando meu curriculo (DESATUALIZADO) usando HTML & CSS
 
 ## Demonstração
 
